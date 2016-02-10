@@ -1,8 +1,0 @@
-@mixin math($property,$value) {
-  #{$property}: -webkit-calc(#{$value});
-  #{$property}: calc(#{$value});
-}
-@function math($value) {
-  @return -webkit-calc(#{$value});
-
-}

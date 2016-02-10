@@ -1,7 +1,0 @@
-@mixin log($message) {
-  @if feature-exists('at-error') == true {
-    @debug $message;
-  } @else {
-    @warn $message;
-  }
-}
