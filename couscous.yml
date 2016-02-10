@@ -1,0 +1,24 @@
+template:
+    url: https://github.com/skimia/Template-Dark
+
+exclude:
+    - src
+
+baseUrl: http://skimia.github.io/quiver
+
+github:
+    user: skimia
+    repo: quiver
+
+title: Skimia Quiver Framwork Sass
+subTitle: The framworks Sass of Skimia
+
+
+menu:
+    sections:
+        introduction:
+            name: Introduction
+            items:
+                getting-started:
+                    text: Getting started
+                    relativeUrl: docs/sass/getting-started.html
